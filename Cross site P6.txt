@@ -1,0 +1,26 @@
+Practical no 6:
+Aim: Simulate persistent cross-site Scripting Attack
+(1)	download XAMPP. 
+(2)	Turn on Apache and MySQL. 
+(3)	Extract DVWA-master zip folder on desktop. Rename that folder & save as dvwa. 
+	Copy this newly created folder into C:\xampp\htdocs folder.
+(4)	Go to dvwa copied folder. Go to config. Copy the config.inc.php.dist file.
+	 Paste that file in same folder. Rename the copied folder as config.inc.php. automatically
+	 it saved as php file.
+(5)	Open the php file on notepad.
+(6)	Rename db_user as “root” and remove the db_password.
+(7)	Turn On Your XAMPP server and go to http://localhost:8080/dvwa/setup.php
+	Click on Create/Reset Database.
+
+(8)	Now automatically you are redirected to login page.
+enter username:admin and password:password
+(9)	After Successfully logging in you will be redirected to the homepage.
+	Go to DVWA security and set it as “low”.
+	go to xss(stored)
+	Enter name:test message:<script>alert("this is xss practical")</script>
+	you will be able to see the following output
+	To insert any malicious code do the following:
+	go to dvwa security>enable PHPIDS
+	Go to XSS(stored)>message>type any malicious code as shown below
+	.And then click on "Sign GuestBook" you will be able to see the following message
+	To view intrusion detection go to dvwa security>view IDS log

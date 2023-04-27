@@ -1,0 +1,27 @@
+	Practical no 10:
+
+Aim: Finding Location and IP Address 
+
+(1)open https://grabify.link/
+and enter a valid url that will be opened when the user will click on your link 
+which you have send.
+And after that click on create URL.
+
+2.After that an dummy link will be generated which you can send to anyone to 
+track their location and IP Address.A page Like this will be displayed below.
+
+(3)Copy and paste the link in your email which you will be sending to the user.foreg:
+And when the user will click that link another webpage will be opened(the url which
+ you have specified)and you can track the location and IP Address of the user
+
+(4)When the user clicks on that link www.google.com will be opened because we had 
+given that as our referring url
+
+
+(5)After The User Has clicked on the link you will be able to track their location and IP Address .
+
+
+
+
+
+

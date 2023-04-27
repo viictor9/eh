@@ -1,0 +1,20 @@
+                                                    PRACTICAL 5
+AIM: Use Wireshark (Sniffer) to capture network traffic and analyse.
+Step1: Open Wireshark, Right click on your “Wi-Fi/Ethernet” interface and then 
+click on “Start capture”. 
+
+Step 2: Go to http://www.techpanda.org website in your browser and
+ enter the following credentials.
+Email: admin@google.com
+Password: Password2010
+
+
+Step 3: Click on Submit, then perform some actions such as adding a new contact,
+ then Log out.
+
+
+Step 4: Now return back to Wireshark. Stop the Capturing of the Packets, 
+and search http.request.method==”POST”.
+ Select the HTTP packet having the info POST/index.php HTPP/1.1 and then click on the 
+HTML Form URL Encoded dropdown arrow, there you will see the Credentials from which
+ you logged in the techpanda.org website.

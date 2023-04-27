@@ -1,0 +1,10 @@
+                                                PRACTICAL 3A
+AIM: Run and analyze the output of following commands in Linux – ifconfig, ping,
+ netstat, traceroute.
+
+
+1) ifconfig (For Windows it is ipconfig):
+
+2) ping
+3) netstat
+4) traceroute

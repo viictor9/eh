@@ -1,0 +1,19 @@
+                                                PRACTICAL 2A
+
+AIM: Use CrypTool to encrypt and decrypt passwords using RC4 algorithm.
+
+STEPS FOR ENCRYPTION:
+Step 1: Open CryptToolFileNew.
+Step 2: Enter any text which you want to Encrypt.
+Step 3: Go to Encrypt/DecryptSymmetric(modern)RC4.
+Step 4: Select the Key Length as you prefer and click on “Encrypt” 
+Button from the following window.
+Step 5: The Entered Normal Text will get converted into the following Ciphertext.
+
+
+
+STEPS FOR DECRYPTION:
+Step 1: Go to Encrypt/DecryptSymmetric(modern)RC4.
+Step 2: Select the Key Length as you prefer and click on “Decrypt”
+ Button from the following window.
+Step 3: Following will be the Decrypted Text.

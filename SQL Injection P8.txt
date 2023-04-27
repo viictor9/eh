@@ -1,0 +1,45 @@
+                          Practical no 8:
+              Aim: Perform SQL Injection Attack.
+
+(1)Go to https://www.apachefriends.org/download.html and download XAMPP server.
+
+(2)After Installation,Right click on XAMPP and choose "Run As Administrator "mode
+
+(3)Start modules apache and mysql server. allow access to the firewall.
+
+(4)Go to link : http://www.dvwa.co.uk/ and click on download.
+
+(5)Download And Extract DVWA-Master.zip file and then extract the file and 
+rename the file as dvwa . After renaming it go to config<config.inc and make
+ the password field empty as shown below.and then copy and paste the entire folder
+ inside C:\xampp\xam\htdocs
+
+
+(6) Go to Web browser and enter the side http://localhost:8080/phpmyadmin/
+and then click on Databases. Enter the database name as "sql_db" and after that 
+click on "create"
+
+(7)go to http://localhost:8080/dvwa/setup.php# and click on "create/reset" Database.
+
+
+(8)Once Your click on"create/Reset Database You will be able to see the following page.
+
+(9)Click on login and enter the username as username:admin password:password
+and after that click on "Login" button.
+
+(10)You will be redirected to the home page as shown below.	
+
+(11)Go To the DVWA security options in the left and set the security level 
+as "Low"And click on "submit"
+
+(12)Go to SQL injection in left and enter user id:1 and then click on submit
+
+(13)Check for various fields such as 2,3
+
+
+
+Optional Steps 
+(1)set the permissions to "on" in php.ini file and save it 
+
+(2) Go to C:\xampp\xam\htdocs\dvwa\config and enter the recaptcha public 
+key as shown below:

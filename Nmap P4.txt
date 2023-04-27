@@ -1,0 +1,40 @@
+PRACTICAL 4
+
+AIM: Using Nmap scanner to perform port scanning of various forms – 
+ACK, SYN, FIN, NULL, XMAS.
+
+
+
+NOTE: Install Nmap for windows and install it. After that open cmd and type 
+“nmap” to check if it is installed properly. Now type the below commands.
+	
+Type command
+Nmap
+
+
+Working of nmap
+command- nmap-help
+
+
+Syn scan
+ Target :-  scanme.nmap.org
+command:-  nmap-p22,113,139 scanme.nmap.org
+
+
+ACK scan (-sA)
+Target :- scanme.nmap.org
+command:- nmap -sA - T4 scanme.nmao.org
+
+FIN scan (-sF)
+Target :-para
+Command:- nmap -sF - T4 para
+
+NULL scan (-sN)
+Target :- scanme.nmap.org
+Command:- nmap -sN -p 22 scanme.nmap.org
+
+XMAS Scan (-sX)
+Target :- www.gmail.com
+Command :-  nmap -sX -T4 www.gmail.com
+
+

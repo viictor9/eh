@@ -1,0 +1,55 @@
+	Practical no 7:
+Aim:Session impersonation using Firefox and tamper data add-on
+
+(1)Install and open Firefox
+After you install and open firefox for the first time a page as shown
+ below will appear
+
+(2)Download tamper data-add on from the 
+link: https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/ and 
+click on "Add to firefox" Tab
+
+And ,also give permission to add it to your firefox	
+
+After that you will also be able to see that tamper data
+ extensions has been added to your firefox
+
+(3)Install cookie-editor for firefox from the
+ link: https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/ and 
+click on "Add to firefox" Tab
+you will be able to see that the cookie-editor has been added to your firefox extension.
+
+
+4)Go to http://www.techpanda.org/ a page as shown below will appear
+
+
+(5)Enter the following Email and password:
+Email:admin@google.com
+password:Password2010
+and after that click on submit.
+After you click on "Submit" Button a page as shown below will appear	
+
+
+(6)now open the cookie editor which you had installed earlier,copy and paste
+ the PHPSESSIONID and also copy and paste the dashboard url into any text document.
+
+(7)After performing step(6)close the Dashboard tab but dont log out from the dashboard.
+
+(8)Now open the browser>options>privacy and security>Cookies and site data and then 
+click on "clear data"
+
+(9)Now open the tamper data menu
+after that it will ask you "Start tamper data?" Click on "Yes"
+
+(10)Now copy and paste the dashboard url which you had stored it in your text file earlier
+
+(11)A pop up will appear as shown below . Click on "ok"
+
+(12)After that another pop up as shown below will appear . click on "OK"
+
+(13)After that another pop up will appear wherein in the "cookie" section
+ you will have to paste the PHPSESSIONID which you had previously stored it in text file.
+and after that click on "Ok"
+
+(14)you should be able to see the logged in dashboard directly without logging in.
+
